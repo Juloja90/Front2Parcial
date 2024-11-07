@@ -44,7 +44,7 @@ function App() {
         <div>
           <label htmlFor="pokemon">Pokemon:</label>
           <input
-            type="pokemon"
+            type="text"
             id="pokemon"
             value={pokemon}
             onChange={(e) => setPokemon(e.target.value)}
